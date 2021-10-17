@@ -25,3 +25,129 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.zbozi {
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.vizual {
+    font-family: 'Rubik';
+    color:whitesmoke;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    width: 670px;
+    height: 440px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+}
+
+.logo {
+    padding: 30px 0px 0px 30px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px
+}
+
+.bota {
+    position:absolute;
+    left: -70px;
+}
+
+.cenovka {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.cena {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.zaruka {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.detaily {
+    font-family: 'Rubik';
+    background-color: white;
+    width: 670px;
+    height: 440px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 30px;
+}
+
+.nazev {
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.produkt {
+    color: #959595;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.popis {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.parametr {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.velikosti {
+    padding-left: 20px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+.vybrana {
+    color: #f15f42;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.tlacitko {
+    color:whitesmoke;
+    background-color:#f15f42;
+    text-decoration: none; 
+    padding: 20px;
+    border-radius: 10%;
+    text-align: center;  
+    text-transform: uppercase;
+}
+
+.akce {
+    margin-top: 30px;
+}
+
